@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+section{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+section h2{
+    text-align: center;
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(205, 232, 255);
+    box-shadow: 1px 1px 3px blue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    user-select: none;
+}
