@@ -38,3 +38,26 @@ section h2{
     line-height: 80px;
     user-select: none;
 }
+
+#winner{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(205, 232, 255);
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0 10px 25%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
